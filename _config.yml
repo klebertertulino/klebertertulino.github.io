@@ -1,4 +1,4 @@
-title: Hello, world! I'm Kleber Tertulino
+title: Olá, mundo! Eu sou Kleber Tertulino!
 description: > # this means to ignore newlines until "baseurl:"
   Tecnologia & Café.
 permalink: ':title/'
@@ -9,12 +9,10 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Kleber Tertulino # add your name
 author-img: kleber-tertulino.jpg # add your photo
-about-author: Sou um sysadmin disfarçado de DevOps, pai de Pedro, Arthur, Isabella e Victoria e marido de Daniela Tertulino. # add description
-# social-twitter: # add your Twitter handle
-# social-facebook: # add your Facebook handle
+about-author: Sysadmin disfarçado de DevOps, pai de Pedro, Arthur, Isabella e Victoria e marido de Daniela Tertulino. # add description
 social-github: ktertulino # add your Github handle
 social-linkedin: ktertulino # add your Linkedin handle
-social-email: contato[at]klebertertulino.com # add your Email address
+social-email: contato@klebertertulino.com # add your Email address
 
 # Disqus
 discus-identifier: ktertulino # add your discus identifier
