@@ -10,8 +10,8 @@ layout: main
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span>{{post.date | date: '%d/%m/%Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span>{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minutos para ler" }}{% endunless %}</span>
+    <span class="post-date">{{post.date | date: '%d/%m/%Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minutos para ler" }}{% endunless %}</span>
   </div>
 </article>
 {% endfor %}
