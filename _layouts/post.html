@@ -19,7 +19,7 @@ layout: main
         <h1 class="page-title">{{page.title}}</h1>
         <div class="page-date">
           <span>{{page.date | date: '%d/%m/%Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-          <span>{% capture words %}{{ page.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minutos para ler" }}{% endunless %}</span>
+          <span>{{page.content | number_of_words }}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minutos para ler" }}{% endunless %}</span>
         </div>
       </header>
       {{content | markdownify}}
