@@ -9,7 +9,7 @@
         {% endif %}
       {% endif %}
 
-      {% if paginator.total_pages > 1 %}
+      {% if paginator.total_pages == 1 %}
       <p><span class="page-number">Página {{paginator.page}} de {{paginator.total_pages}}</span></p>
       {% endif %}
 
