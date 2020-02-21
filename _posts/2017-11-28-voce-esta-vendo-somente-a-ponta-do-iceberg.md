@@ -2,8 +2,9 @@
 layout: post
 title: Você está vendo somente a ponta do iceberg
 date: 2017-11-28 00:00:00 +0300
-tags: [Cloud, Gestão]
 description: A Cloud esta democratizando a tecnologia nas empresas de todos os tamanhos.
+img: iceberg.jpg
+tags: [Cloud, Gestão]
 ---
 Empresas estão buscando caminhos para se manter competitivas e cada vez mais percebemos que a tecnologia tem sido esse diferencial, através de investimento em BI, WMS, ERP e outras siglas que serão relevantes tanto para grandes corporações, quanto para pequenas e médias empresas.
 
