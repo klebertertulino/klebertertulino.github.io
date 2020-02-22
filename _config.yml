@@ -1,23 +1,20 @@
 title: Olá, mundo! Eu sou Kleber Tertulino!
-description: > # this means to ignore newlines until "baseurl:"
+description: > 
   Tecnologia & Café.
 permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" 
+url: "https://klebertertulino.com"
 
 # Author Settings
 author: Kleber Tertulino # add your name
 author-img: kleber-tertulino.jpg # add your photo
-about-author: DevOps Engineer, pai de Pedro, Arthur, Isabella e Victoria e marido de Daniela Tertulino. # add description
-social-github: ktertulino # add your Github handle
-social-linkedin: ktertulino # add your Linkedin handle
-social-email: contato@klebertertulino.com # add your Email address
-
-# Disqus
-discus-identifier: ktertulino # add your discus identifier
+about-author:  Profissional de TI com carreira em empresas globais e background em infra-estrutura. As últimas experiências foram trabalhando com cultura Ágil e DevOps, ajudando a integração de desenvolvedores e equipes de infra-estrutura. 
+social-github: ktertulino
+social-linkedin: ktertulino 
+social-email: contato@klebertertulino.com
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-158877061-1
 
 # Build Settings
 markdown: kramdown
