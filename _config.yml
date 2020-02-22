@@ -1,4 +1,4 @@
-title: Olá, mundo! Eu sou Kleber Tertulino!
+title: Olá mundo, eu sou Kleber Tertulino!
 description: > 
   Tecnologia & Café.
 permalink: ':title/'
@@ -6,8 +6,8 @@ baseurl: "/"
 url: "https://klebertertulino.com"
 
 # Author Settings
-author: Kleber Tertulino # add your name
-author-img: kleber-tertulino.jpg # add your photo
+author: Kleber Tertulino
+author-img: kleber-tertulino.jpg 
 about-author:  Profissional de TI com carreira em empresas globais e background em infra-estrutura. As últimas experiências foram trabalhando com cultura Ágil e DevOps, ajudando a integração de desenvolvedores e equipes de infra-estrutura. 
 social-github: ktertulino
 social-linkedin: ktertulino 
