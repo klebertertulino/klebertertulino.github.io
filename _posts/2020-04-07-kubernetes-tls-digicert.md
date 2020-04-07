@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Kubernetes Ingress HTTPS com secret TLS 
+title: Kubernetes TLS com certificado DigiCert 
 date: 2020-04-07 00:00:00 +0300
-description: Como criar uma secret TLS com certificados da DigiCert
+description: Como criar uma secret TLS com certificado da DigiCert
 img: join.jpg
 tags: [Kubernetes, TLS]
 ---
 > *Photo by Valentin Müller on Unsplash*
 
-Recentemente tive que atualizar um certificado que estava para expirar, o certificado antigo já esta pronto nos formatos necessários, o novo certificado emitido pela DigiCert não funcionava simples assim. Quando abria o site pelo navegador o certificado era tido válido porém ao testar com o **Postman** ou mesmo com um simples **curl** apresenta um erro na CA.
+Recentemente tive que atualizar um certificado que estava para expirar, o certificado antigo já esta pronto nos formatos necessários, já o novo certificado emitido pela DigiCert não estava funcionava simples assim. Quando abria o site pelo navegador o certificado era tido válido porém ao testar com o **Postman** ou mesmo com um simples **curl** apresenta um erro na CA.
 
 O pacote de arquivos disponibilizado contia os seguintes arquivos:
 
