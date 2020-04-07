@@ -3,7 +3,7 @@ layout: post
 title: Kubernetes Ingress HTTPS com secret TLS 
 date: 2020-04-07 00:00:00 +0300
 description: Como criar uma secret TLS com certificados da DigiCert
-img: semaforo.jpg
+img: join.jpg
 tags: [Kubernetes, TLS]
 ---
 > *Photo by Valentin Müller on Unsplash*
