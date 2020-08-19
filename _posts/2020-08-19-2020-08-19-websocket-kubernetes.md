@@ -3,6 +3,7 @@ layout: post
 title: WebSocket no Ingress do Kubernetes
 date: 2020-08-19 14:34
 author: Kleber Tertulino
+img: web.jpg
 tags: [Kubernetes, Ingress]
 summary: Como ativar WebSocket no Ingress do Kubernetes
 ---
