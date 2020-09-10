@@ -8,7 +8,6 @@ tags: [Kubernetes, Namespaces, base-de-conhecimento]
 summary: Como excluir um namespace com o status Terminating
 ---
 
-## Problema
 As vezes ao excluir um namespace, por exemplo: **foo**. O namespace fica travado no estado "*Terminating*":
 
 Exemplo:  
