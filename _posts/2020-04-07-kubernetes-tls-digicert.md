@@ -3,9 +3,7 @@ layout: post
 title: Kubernetes TLS com certificado DigiCert
 date: 2020-04-07 00:00:00 +0300
 author: Kleber Tertulino
-img: join.jpg
 tags: [Kubernetes, TLS]
-summary: Como criar uma secret TLS com certificado da DigiCert
 ---
 
 Recentemente tive que atualizar um certificado que estava para expirar, o certificado antigo já esta pronto nos formatos necessários, já o novo certificado emitido pela DigiCert não estava funcionava simples assim. Quando abria o site pelo navegador o certificado era tido válido porém ao testar com o **Postman** ou mesmo com um simples **curl** apresenta um erro na CA.

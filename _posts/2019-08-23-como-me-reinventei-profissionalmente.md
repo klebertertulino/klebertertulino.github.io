@@ -2,15 +2,14 @@
 layout: post
 title: Como me reinventei profissionalmente na área de tecnologia
 date: 2019-08-23 00:00:00 +0300
-description: Um pouco de como mudei a direção da minha carreira em tecnologia e iniciei a transformação para o mundo devops.
-img: notebook-mobile.jpeg
 tags: [Carreira]
 ---
+
 O ano era 2017 e estava às vésperas de completar 4 anos de empresa quanto recebi de presente uma carta de dispensa da empresa que trabalhava a essa época. E realmente foi um presente pra mim, profissionalmente estava estagnado e não agregava mais nada para a empresa e muito menos para mim. Os dias se passavam e não me sentia desafiado e muito menos realizado, o trabalho era somente um local para cumprir as minhas horas e o pior, eu não estava percebendo isso.
 
 Como disse Steve Jobs em seu discurso em Stanford:
 
->Você só consegue ligar os pontos olhando para trás [...]
+> Você só consegue ligar os pontos olhando para trás [...]
 
 E hoje eu percebo que aquele foi o ponto inicial do processo de reinvenção da minha carreira. Após esse fato, pude olhar pra fora daquela bolha que vivia e consegui enxergar novas possibilidades em algo que me trás a felicidade: Escrever código!
 

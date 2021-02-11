@@ -3,9 +3,7 @@ layout: post
 title: WebSocket no Ingress do Kubernetes
 date: 2020-08-19 14:34
 author: Kleber Tertulino
-img: web.jpg
 tags: [Kubernetes, Ingress]
-summary: Como ativar WebSocket no Ingress do Kubernetes
 ---
 
 Para expor um serviço através de um ingress controller é necessário incluir uma anotação nas definições do recurso para que o mesmo identifique qual dos serviços expostos devem ser tratado como WebSocket.

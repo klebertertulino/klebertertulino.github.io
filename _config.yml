@@ -1,29 +1,37 @@
-title: Olá mundo, eu sou Kleber Tertulino!
-description: > 
-  Tecnologia & Café.
-permalink: ':title/'
-baseurl: "/" 
+# Site settings
+title: Kleber Tertulino
+description: "Tecnologia & Café"
 url: "https://klebertertulino.com"
+paginate: 5
+permalink: /:title
+theme: tale
 
-# Author Settings
-author: Kleber Tertulino
-author-img: kleber-tertulino.jpg 
-about-author:  Profissional de TI com carreira em empresas globais e background em infra-estrutura. As últimas experiências foram trabalhando com cultura Ágil e DevOps, ajudando a integração de desenvolvedores e equipes de infra-estrutura. 
-social-github: ktertulino
-social-linkedin: ktertulino 
+# Google Analytics
+google_analytics: UA-158877061-1
+
+# Author
+author: 
+  name: Kleber Tertulino
+  url: https://klebertertulino.com
+  email: contato@klebertertulino.com
+
+# Social
+social-github: klebertertulino
+social-linkedin: klebertertulino 
 social-email: contato@klebertertulino.com
-
-# Tracker
-analytics: UA-158877061-1
 
 # Build Settings
 markdown: kramdown
+include:
+  - _pages
 plugins:
-  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
   - jemoji
+sass:
+  sass_dir:     _sass
+  style:        compressed
 
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+# Excludes
+exclude: [Gemfile, Gemfile.lock, tale.gemspec ]

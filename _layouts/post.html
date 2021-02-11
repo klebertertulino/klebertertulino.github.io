@@ -1,42 +1,49 @@
 ---
-layout: main
+layout: default
 ---
-<article class="article-page">
-  <div class="page-content">
-    {% if page.img %}
-    <div class="page-cover-image">
-      <figure>
-        <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}}
-          alt="{{page.title}}">
-        {% if page.fig-caption %}
-        <figcaption>{{page.fig-caption}}</figcaption>
-        {% endif %}
-      </figure>
-    </div> <!-- End Page Cover Image -->
+
+<div class="post">
+  <div class="post-info">
+    <span>Escrito por</span>
+    {% if page.author %}
+        {{ page.author }}
     {% else %}
+        {{ site.author.name }}
     {% endif %}
-    <div class="wrap-content">
-      <header class="header-page">
-        <h1 class="page-title">{{page.title}}</h1>
-        <div class="page-date">
-          <span class="post-date">{{page.date | date: '%d/%m/%Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-          <span>{% capture words %}{{page.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " min para ler" }}{% endunless %}</span>
-        </div>
-      </header>
-      {{content | markdownify}}
-      <div class="page-footer">
-        <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}"
-            title="Compartilhe no Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Compartilhe no Facebook"
-            rel="nofollow" target="_blank">Facebook</a>
-        </div>
-        <div class="page-tag">
-          {% for tag in page.tags %}
-          <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
-          {% endfor %}
-        </div>
-      </div>
-    </div> <!-- End Wrap Content -->
-  </div> <!-- End Page Content -->
-</article> <!-- End Article Page -->
+    {% if page.date %}
+      <br>
+      <span>em&nbsp;</span>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{% include date.html date=page.date %}</time>
+    {% endif %}
+  </div>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-info">
+    <span>{% capture words %}{{page.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " min para ler" }}{% endunless %}</span>
+  </div>
+  <br>
+  <div class="post-line"></div>
+  {{ content }}
+  <br>
+  <div class="tags-clouds">
+      <span>Tags:</span>
+      {% for tag in page.tags %}
+      <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">{{ tag }}</a>
+      {% endfor %}
+  </div>
+</div>
+
+{% if page.comments %}
+  {% include disqus_comments.html %}
+{% endif %}
+
+<div class="pagination">
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <a href="#" class="top">Topo</a>
+</div>
