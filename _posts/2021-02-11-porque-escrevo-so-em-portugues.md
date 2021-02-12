@@ -3,7 +3,7 @@ layout: post
 title: Porque escrevo só em português
 date: 2021-02-11 20:30
 author: Kleber Tertulino
-tags: [Kubernetes, Namespaces, base-de-conhecimento]
+tags: [conhecimento, compartilhamento, diversos]
 ---
 
 Atualmente esta muito comum profissional de tecnologia escrevendo conteúdos majoritariamente em inglês. Isso é muito interessante em dois pontos:
