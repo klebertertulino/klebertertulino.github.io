@@ -30,5 +30,5 @@ O conteúdo de tecnologia em inglês é muito maior que no nosso idioma, é exte
 
 > E você hoje o que esta fazendo para colaborar com um mundo melhor?
 
-Um grande abraço!
+Um grande abraço!  
 Kleber Tertulino
