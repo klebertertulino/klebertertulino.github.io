@@ -4,7 +4,6 @@ description: "Tecnologia & Café"
 url: "https://klebertertulino.com"
 paginate: 5
 permalink: /:title
-theme: tale
 
 # Google Analytics
 google_analytics: UA-158877061-1
