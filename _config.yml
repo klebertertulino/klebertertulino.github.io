@@ -6,17 +6,17 @@ paginate: 5
 permalink: /:title
 
 # Google Analytics
-google_analytics: UA-158877061-1
+google_analytics: G-8Y13BPSXTP
 
 # Author
-author: 
+author:
   name: Kleber Tertulino
   url: https://klebertertulino.com
   email: contato@klebertertulino.com
 
 # Social
 social-github: klebertertulino
-social-linkedin: klebertertulino 
+social-linkedin: klebertertulino
 social-email: contato@klebertertulino.com
 
 # Build Settings
@@ -29,8 +29,8 @@ plugins:
   - jekyll-seo-tag
   - jemoji
 sass:
-  sass_dir:     _sass
-  style:        compressed
+  sass_dir: _sass
+  style: compressed
 
 # Excludes
-exclude: [Gemfile, Gemfile.lock, tale.gemspec ]
+exclude: [Gemfile, Gemfile.lock, tale.gemspec]
