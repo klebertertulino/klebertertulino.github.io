@@ -10,7 +10,7 @@ Iniciei minha carreira aos 17 anos na SOS Computadores como monitor, posteriorme
 
 Cheguei a ser responsável de tecnologia no Brasil em uma multinacional farmacêutica. Mas sentia falta de ser mais "mão na massa" e resolvi [me reinventar](/como-me-reinventei-profissionalmente/ "Como me reinventei profissionalmente") profissionalmente.
 
-Hoje atuo como Engenheiro DevOps na [Xerpa](https://www.xerpa.com.br) e nas horas vagas ajudo profissionais de tecnologia que querem conhecer um pouco mais de DevOps, SRE e Cloud. Como parte desse esforço escrevo um pouco aqui e compartilho alguns links e matérias no [Linkedin](https://www.linkedin.com/in/klebertertulino/).
+Hoje atuo como Engenheiro DevOps e nas horas vagas ajudo profissionais de tecnologia que querem conhecer um pouco mais de DevOps, SRE e Cloud. Como parte desse esforço escrevo um pouco aqui e compartilho alguns links e matérias no [Linkedin](https://www.linkedin.com/in/klebertertulino/).
 
 Sou casado com [Daniela Tertulino](https://www.linkedin.com/in/daniela-tertulino-758a69155/) e pai de Pedro, Arthur, Isabella e Victoria. Eles são a prova de que acredito em um futuro melhor, principalmente através da educação e é por isso que compartilho conhecimento.
 
