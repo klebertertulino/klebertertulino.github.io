@@ -15,22 +15,41 @@
   --color-blockquote-border: #e5e5e5;
 }
 
+@mixin dark-vars {
+  --color-text: #c9c9c9;
+  --color-heading: #ececec;
+  --color-tint: #777;
+  --color-grey-1: #666;
+  --color-grey-2: #333;
+  --color-grey-3: #272727;
+  --color-bg: #1a1a1a;
+  --color-nav-bg: #1a1a1a;
+  --color-blue: #6ab0f5;
+  --color-code-bg: #2a2a2e;
+  --color-code: #e88f94;
+  --color-shadow: rgba(0, 0, 0, .4);
+  --color-blockquote-border: #333;
+}
+
 @media (prefers-color-scheme: dark) {
-  :root {
-    --color-text: #c9c9c9;
-    --color-heading: #ececec;
-    --color-tint: #777;
-    --color-grey-1: #666;
-    --color-grey-2: #333;
-    --color-grey-3: #272727;
-    --color-bg: #1a1a1a;
-    --color-nav-bg: #1a1a1a;
-    --color-blue: #6ab0f5;
-    --color-code-bg: #2a2a2e;
-    --color-code: #e88f94;
-    --color-shadow: rgba(0, 0, 0, .4);
-    --color-blockquote-border: #333;
-  }
+  :root { @include dark-vars; }
+}
+
+html.dark { @include dark-vars; }
+html.light { /* força light mesmo se o sistema for dark */
+  --color-text: #555;
+  --color-heading: #353535;
+  --color-tint: #aaa;
+  --color-grey-1: #979797;
+  --color-grey-2: #e5e5e5;
+  --color-grey-3: #efefef;
+  --color-bg: #fff;
+  --color-nav-bg: #fff;
+  --color-blue: #4a9ae1;
+  --color-code-bg: #eef0f5;
+  --color-code: #bf616a;
+  --color-shadow: rgba(0, 0, 0, .12);
+  --color-blockquote-border: #e5e5e5;
 }
 
 // Sass vars que apontam para as CSS vars (compatibilidade com partials existentes)

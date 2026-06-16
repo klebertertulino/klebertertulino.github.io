@@ -84,6 +84,28 @@ footer,
       display: block;
     }
   }
+
+  #theme-toggle {
+    @include transition(opacity .2s ease-out);
+    background: none;
+    border: none;
+    color: var(--color-text);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    opacity: 0.6;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+      outline: none;
+    }
+
+    svg {
+      display: block;
+    }
+  }
 }
 
 @media (min-width: 600px) {
