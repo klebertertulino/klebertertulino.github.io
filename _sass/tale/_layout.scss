@@ -1,7 +1,8 @@
 .container {
   margin: 0 auto;
   max-width: 800px;
-  width: 80%;
+  padding: 0 1.5rem;
+  width: 100%;
 }
 
 main,
@@ -10,11 +11,13 @@ footer,
   display: block;
   margin: 0 auto;
   max-width: 800px;
-  width: 80%;
+  padding: 0 1.5rem;
+  width: 100%;
 }
 
 .nav {
-  box-shadow: 0 3px 3px -2px $shadow-color;
+  background-color: var(--color-nav-bg);
+  box-shadow: 0 2px 6px var(--color-shadow);
   overflow: auto;
 
   &-container {
@@ -25,7 +28,7 @@ footer,
 
   &-title {
     @include transition(all 0.2s ease-out);
-    color: $default-shade;
+    color: var(--color-heading);
     display: inline-block;
     margin: 0;
     padding-right: 0.2rem;
@@ -45,7 +48,7 @@ footer,
 
   li {
     @include transition(all 0.2s ease-out);
-    color: $default-color;
+    color: var(--color-text);
     display: inline-block;
     opacity: 0.6;
     padding: 0 2rem 0 0;
@@ -62,13 +65,24 @@ footer,
   }
 
   a {
-    color: $default-color;
+    color: var(--color-text);
     font-family: $sans-serif;
     font-weight: bold;
     text-transform: uppercase;
   }
+
   .social {
     font-size: 20px;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      vertical-align: middle;
+    }
+
+    svg {
+      display: block;
+    }
   }
 }
 
@@ -92,7 +106,7 @@ footer {
   text-align: center;
 
   span {
-    color: $default-color;
+    color: var(--color-text);
     font-size: 0.8rem;
   }
 }
@@ -114,18 +128,14 @@ footer {
 }
 
 .contact ul li a {
-  color: #515151;
+  color: var(--color-text);
   display: block;
   padding: 5px;
   font-size: 25px;
-  -webkit-transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
-  -o-transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
   transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
 }
 
 .contact ul li a:hover {
-  color: #333030;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
+  color: var(--color-heading);
   transform: scale(1.2);
 }

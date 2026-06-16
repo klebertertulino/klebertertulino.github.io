@@ -1,14 +1,49 @@
-// Colors
-$default-color: #555 !default;
-$default-shade: #353535 !default;
-$default-tint: #aaa !default;
-$grey-1: #979797 !default;
-$grey-2: #e5e5e5 !default;
-$grey-3: #f9f9f9 !default;
-$white: #fff !default;
-$blue: #4a9ae1 !default;
-$shadow-color: rgba(0, 0, 0, .2) !default;
-$code-color: #bf616a !default;
+// CSS Custom Properties — suporte a dark mode via prefers-color-scheme
+:root {
+  --color-text: #555;
+  --color-heading: #353535;
+  --color-tint: #aaa;
+  --color-grey-1: #979797;
+  --color-grey-2: #e5e5e5;
+  --color-grey-3: #efefef;
+  --color-bg: #fff;
+  --color-nav-bg: #fff;
+  --color-blue: #4a9ae1;
+  --color-code-bg: #eef0f5;
+  --color-code: #bf616a;
+  --color-shadow: rgba(0, 0, 0, .12);
+  --color-blockquote-border: #e5e5e5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #c9c9c9;
+    --color-heading: #ececec;
+    --color-tint: #777;
+    --color-grey-1: #666;
+    --color-grey-2: #333;
+    --color-grey-3: #272727;
+    --color-bg: #1a1a1a;
+    --color-nav-bg: #1a1a1a;
+    --color-blue: #6ab0f5;
+    --color-code-bg: #2a2a2e;
+    --color-code: #e88f94;
+    --color-shadow: rgba(0, 0, 0, .4);
+    --color-blockquote-border: #333;
+  }
+}
+
+// Sass vars que apontam para as CSS vars (compatibilidade com partials existentes)
+$default-color: var(--color-text) !default;
+$default-shade: var(--color-heading) !default;
+$default-tint: var(--color-tint) !default;
+$grey-1: var(--color-grey-1) !default;
+$grey-2: var(--color-grey-2) !default;
+$grey-3: var(--color-code-bg) !default;
+$white: var(--color-bg) !default;
+$blue: var(--color-blue) !default;
+$shadow-color: var(--color-shadow) !default;
+$code-color: var(--color-code) !default;
 
 // Fonts
 $serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif !default;
